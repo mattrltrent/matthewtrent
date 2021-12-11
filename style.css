@@ -1,13 +1,13 @@
 /* Elements */
 
 body {
-    margin: 0 100px;
     background-color: whitesmoke;
+    margin: 0;
 }
 
 h1, h2, h3, h4, h5, h6 {
     margin: 0;
-    font-family: 'Atkinson Hyperlegible', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 /* Class */
@@ -21,18 +21,52 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .center {
-    margin: auto;
     width: 100%;
-    text-align: center;
+    margin: auto 100px;
+}
+
+.nav {
+    position: fixed;
+    width: 100vw;
+    height: 100px;
+    background-image: linear-gradient(180deg, whitesmoke, rgba(0, 0, 0, 0) 59%, transparent);
+}
+
+.row {
+    display: flex;
+}
+  
+.column {
+    flex: 50%;
+    margin: auto 0;
+    width: 100%;
+}
+
+.sub {
+    font-size: 3vw;
 }
 
 .title {
     font-size: 7vw;
+    margin-bottom: 8px;
+    margin-left: -5px;
 }
 
 .desc {
-    font-size: 2vw;
+    font-size: 1.2vw;
     font-family: 'Montserrat', sans-serif;
-    font-weight: 500;
+    text-align: justify;
+    max-width: 55%;
+    font-weight: lighter;
+    color: black;
 }
 
+.period {
+    color: #701526;
+}
+
+.hero-img {
+    width: 40vw;
+    margin-left: auto;
+    display: block;
+}
