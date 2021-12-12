@@ -26,9 +26,17 @@ a {
     color: black;
 }
 
-/* Chunk 1 */
+hr {
+    border: none;
+    height: 1px;
+    width: 3vw;
+    color: #797979;
+    background-color: #797979;
+}
 
-.chunk-1 {
+/* Page 1 */
+
+.page-1 {
     height: calc(100vh - 140px);
     width: 100%;
     background-color: whitesmoke;
@@ -59,7 +67,8 @@ a {
 }
 
 .sub {
-    font-size: 3vw;
+    font-size: 1.25vw;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .title {
@@ -140,14 +149,39 @@ a {
     display: flex;
 }
 
-/* Chunk 2 */
+.contact-link {
+    margin-left: auto;
+}
 
-.chunk-2 {
-    height: 200px;
+/* Page 2 */
+
+.page-2 {
+    height: 100vh;
     width: 100%;
-    background-color: #701526;
+    background-color: white;
     display: flex;
     margin: auto;
 }
 
+.chunk-1 {
+    color: #6393ed;
+}
 
+/* Footer */
+
+.page-footer {
+    height: 40vh;
+    width: 100%;
+    background-color: whitesmoke;
+    display: flex;
+}
+
+.center-xy {
+    width: 100%;
+    margin: auto 100px;
+    text-align: center;
+}
+
+.footer-msg {
+    margin: 20px auto;
+}
