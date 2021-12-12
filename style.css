@@ -22,6 +22,10 @@ h1, h2, h3, h4, h5, h6 {
     line-height: 1.1;
 }
 
+a {
+    color: black;
+}
+
 /* Chunk 1 */
 
 .chunk-1 {
@@ -84,7 +88,7 @@ h1, h2, h3, h4, h5, h6 {
     display: block;
 }
 
-.column {
+.column-2 {
     flex: 50%;
     margin: auto 0;
     width: 100%;
@@ -139,9 +143,11 @@ h1, h2, h3, h4, h5, h6 {
 /* Chunk 2 */
 
 .chunk-2 {
-    height: 100vh;
+    height: 200px;
     width: 100%;
     background-color: #701526;
     display: flex;
     margin: auto;
 }
+
+
