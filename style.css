@@ -176,7 +176,7 @@ hr {
 /* Footer */
 
 .page-footer {
-    height: 40vh;
+    height: 350px;
     width: 100%;
     background-color: whitesmoke;
     display: flex;
@@ -196,4 +196,8 @@ hr {
     height: 60px;
     width: auto;
     margin: auto;
+}
+
+.footer-padding-up {
+    margin-top: 20px;
 }
