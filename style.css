@@ -110,6 +110,7 @@ li {
     width: 100%;
 }
 
+
 .btn-template {
   background-color: #701526;
   border: 1px solid #701526;
@@ -197,9 +198,22 @@ li {
 }
 
 .page-header {
-    display: block;
+    display: inline-block;
     text-align: center;
     font-size: 35px;
+    margin: auto;
+    width: 100%;
+}
+
+.page-header-ghost {
+    font-size: 35px;
+    display: inline-block;
+    opacity: 0.15;
+    text-align: center;
+    position: relative;
+    width: 100%;
+    top: 40px;
+    font-size: 70px;
 }
 
 .text-display {
@@ -208,10 +222,31 @@ li {
     text-align: justify;
     font-weight: lighter;
     color: black;
-    margin-left: auto;
     padding: 40px 20px;
     line-height: 1.5;
 }
+
+.column-2-room {
+    flex: 45%;
+    margin: auto 0;
+    width: 100%;
+    display: inline-block;
+}
+
+.column-room {
+    flex: 5%;
+    margin: auto 0;
+    width: 100%;
+    display: flex;
+}
+
+.vertical-line {
+    width: 1px;
+    height: 11vw;
+    background-color: black;
+    margin: 70px auto 0 auto;
+}
+
 
 /* Footer */
 
