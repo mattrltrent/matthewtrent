@@ -88,8 +88,7 @@ li {
 .desc {
     font-size: 1.2vw;
     font-family: 'Montserrat', sans-serif;
-    text-align: justify;
-    max-width: 55%;
+    max-width: 65%;
     font-weight: lighter;
     color: black;
 }
@@ -208,12 +207,12 @@ li {
 .page-header-ghost {
     font-size: 35px;
     display: inline-block;
-    opacity: 0.15;
+    opacity: 0.1;
     text-align: center;
     position: relative;
     width: 100%;
-    top: 40px;
-    font-size: 70px;
+    top: 45px;
+    font-size: 90px;
 }
 
 .text-display {
