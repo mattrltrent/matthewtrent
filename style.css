@@ -207,7 +207,7 @@ li {
 .page-header-ghost {
     font-size: 35px;
     display: inline-block;
-    opacity: 0.1;
+    opacity: 0.08;
     text-align: center;
     position: relative;
     width: 100%;
@@ -241,9 +241,10 @@ li {
 
 .vertical-line {
     width: 1px;
-    height: 11vw;
+    height: 10vh;
     background-color: black;
-    margin: 70px auto 0 auto;
+    opacity: 0.1;
+    margin: 5vh auto 0 auto;   
 }
 
 
