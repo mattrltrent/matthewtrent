@@ -1,5 +1,39 @@
+/* General */
+
 ::-webkit-scrollbar {
     display: none;
+}
+
+@media (max-width: 767px) {
+    .hero-img {
+        background-color: pink;
+        display: none;
+    }
+    .center, .center-xy {
+        margin: auto 25px !important;
+    }
+    .desc {
+        font-size: 2.5vw !important;
+        text-align: center;
+        max-width: 100%;
+        margin: auto;
+    }
+    .title {
+        font-size: 8vw !important;
+        text-align: center;
+        max-width: 100%;
+        margin: auto;
+    }
+    .btn-template {
+        margin: auto !important;
+        display: block !important;
+        width: 100% !important;
+        text-align: center !important;
+        width: 25vw !important;
+        font-size: 3vw !important;
+        margin-top: 25px !important;
+        text-decoration: none !important;
+    }
 }
 
 /* Elements */
@@ -15,7 +49,7 @@ h1, h2, h3, h4, h5, h6 {
     line-height: 1.1;
 }
 
-a {
+a, a:hover, a:active, a:disabled, a:hover {
     color: black;
 }
 
@@ -32,7 +66,6 @@ li {
     width: 100px;
     background-color: black;
     display: inline;
-
 }
 
 /* Page 1 */
@@ -43,28 +76,24 @@ li {
     background-color: whitesmoke;
     display: flex;
     margin: auto;
-    padding-bottom: 70px;
+    min-height: 50vw;
 }
 
 .center {
     width: 100%;
-    margin: auto 100px;
+    margin: auto 70px;
 }
 
 .row {
     display: flex;
 }
-  
-.column-hero-l {
-    flex: 50%;
-    margin: auto 0;
-    width: 100%;
+
+.no-underline, .no-underline:hover, .no-underline:active, .no-underline:disabled, .no-underline:hover {
+    text-decoration: none;
 }
 
-.column-hero-r {
-    flex: 50%;
-    margin: auto 0;
-    width: 100%;
+.col {
+    padding: 0;
 }
 
 .sub {
@@ -92,8 +121,10 @@ li {
 
 .hero-img {
     width: 35vw;
+    margin: auto 0 auto auto;
     margin-left: auto;
-    display: block;
+    float: right;
+    height: 100%;
 }
 
 .column-2 {
@@ -228,10 +259,10 @@ li {
 
 .vertical-line {
     width: 1px;
-    height: 35vh;
+    height: 20vh;
     background-color: black;
     opacity: 0.1;
-    margin: 0 auto;   
+    margin: 0 auto;
 }
 
 
@@ -246,7 +277,7 @@ li {
 
 .center-xy {
     width: 100%;
-    margin: auto 100px;
+    margin: auto 70px;
     text-align: center;
 }
 
