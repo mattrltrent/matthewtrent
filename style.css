@@ -4,22 +4,22 @@
     display: none;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 922px) {
     .hero-img {
         background-color: pink;
         display: none;
     }
     .center, .center-xy {
-        margin: auto 25px !important;
+        margin: auto 10% !important;
     }
     .desc {
-        font-size: 2.5vw !important;
+        font-size: 15px !important;
         text-align: center;
         max-width: 100%;
         margin: auto;
     }
     .title {
-        font-size: 8vw !important;
+        font-size: 40px !important;
         text-align: center;
         max-width: 100%;
         margin: auto;
@@ -29,17 +29,42 @@
         display: block !important;
         width: 100% !important;
         text-align: center !important;
-        width: 25vw !important;
-        font-size: 3vw !important;
+        width: 150px !important;
+        font-size: 15px !important;
         margin-top: 25px !important;
         text-decoration: none !important;
+    }
+    .column-hero-l {
+        flex: 100% !important;
+    }
+    .column-hero-r {
+        flex: 0% !important;
+    }
+    .column-page2-l, .column-page2-r {
+        margin: auto 0 !important;
+        margin: 0 !important;
+        width: auto !important;
+        font-size: 50px !important;
+    }
+    .vertical-line {
+        display: none;
+    }
+    .row-page2 {
+        display: block !important;
+    }
+    .text-display {
+        font-size: 20px !important;
+        text-align: center !important;
+    }
+    .page-header-ghost {
+        top: 58px !important;
     }
 }
 
 /* Elements */
 
 body {
-    background-color: whitesmoke;
+    background-color: white;
     margin: 0;
 }
 
@@ -76,7 +101,7 @@ li {
     background-color: whitesmoke;
     display: flex;
     margin: auto;
-    min-height: 50vw;
+    min-height: fit-content;
 }
 
 .center {
@@ -84,33 +109,37 @@ li {
     margin: auto 70px;
 }
 
+.column-hero-l {
+    flex: 100%;
+    margin: auto 0;
+    width: 100%;
+}
+
+.column-hero-r {
+    flex: 50%;
+    margin: auto 0;
+    width: 100%;
+}
+
 .row {
     display: flex;
+    padding: 5% 0;
 }
 
 .no-underline, .no-underline:hover, .no-underline:active, .no-underline:disabled, .no-underline:hover {
     text-decoration: none;
 }
 
-.col {
-    padding: 0;
-}
-
-.sub {
-    font-size: 1.25vw;
-    font-family: 'Montserrat', sans-serif;
-}
-
 .title {
-    font-size: 6vw;
+    font-size: 45.3px;
     margin-bottom: 8px;
     padding: 15px 0;
 }
 
 .desc {
-    font-size: 1.2vw;
+    font-size: 17px;
     font-family: 'Montserrat', sans-serif;
-    max-width: 65%;
+    max-width: 80%;
     font-weight: lighter;
     color: black;
 }
@@ -120,11 +149,11 @@ li {
 }
 
 .hero-img {
-    width: 35vw;
+    width: 40vw;
     margin: auto 0 auto auto;
     margin-left: auto;
     float: right;
-    height: 100%;
+    height: auto;
 }
 
 .column-2 {
@@ -143,7 +172,7 @@ li {
   cursor: pointer;
   display: inline-block;
   font-family: 'Poppins', sans-serif;
-  font-size: 1.25vw;
+  font-size: 17px;
   font-weight: 600;
   margin-top: 22px;
   outline: none;
@@ -195,7 +224,6 @@ li {
     margin-left: 30px;
 }
 
-
 .push-right {
     margin-left: auto;
 }
@@ -203,11 +231,21 @@ li {
 /* Page 2 */
 
 .page-2 {
-    height: 100vh;
     width: 100%;
-    background-color: white;
-    display: flex;
+    background-color: red;
+    display: inline;
     margin: auto;
+    min-height: fit-content;
+}
+
+.flex {
+    display: flex;
+    width: 100%;
+}
+
+.row-page2 {
+    display: flex;
+    padding: 5% 0;
 }
 
 .chunk-1 {
@@ -234,12 +272,13 @@ li {
 }
 
 .text-display {
-    font-size: 1.2vw;
+    font-size: 20px;
     font-family: 'Montserrat', sans-serif;
     text-align: justify;
     font-weight: lighter;
     color: black;
     padding: 40px 20px;
+    padding: 40px 20px 85px 20px;
     line-height: 1.5;
 }
 
@@ -258,18 +297,29 @@ li {
 }
 
 .vertical-line {
-    width: 1px;
+    width: 2px;
     height: 20vh;
     background-color: black;
     opacity: 0.1;
     margin: 0 auto;
 }
 
+.column-page2-l {
+    flex: 50%;
+    margin: auto 0;
+    width: 100%;
+}
+.column-page2-r {
+    flex: 50%;
+    margin: auto 0;
+    width: 100%;
+}
 
 /* Footer */
 
 .page-footer {
-    height: 350px;
+    height: 30vh;
+    min-height: 250px;
     width: 100%;
     background-color: whitesmoke;
     display: flex;
@@ -300,4 +350,6 @@ li {
     color: black;
     text-decoration: none;
     opacity: 0.2;
+    display: block;
+    padding-bottom: 18px;
 }
