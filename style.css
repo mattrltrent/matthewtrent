@@ -30,10 +30,11 @@
         display: block !important;
         width: 100% !important;
         text-align: center !important;
-        width: 150px !important;
+        width: 115px !important;
         font-size: 15px !important;
         margin-top: 26px !important;
         text-decoration: none !important;
+        padding: 8px 0 !important;
     }
     .column-hero-l {
         flex: 100% !important;
@@ -114,7 +115,7 @@ hr {
 .center {
     width: 100%;
     margin: auto 70px;
-    min-height: 100vh;
+    min-height: calc(100vh - 40px);
 }
 
 .column-hero-padding {
@@ -128,7 +129,7 @@ hr {
 }
 
 .column-hero-r {
-    flex: 90%;
+    flex: 75%;
     margin: auto 0;
     width: 100%;
 }
@@ -176,7 +177,7 @@ hr {
 .btn-template {
   background-color: #701526;
   border: 1px solid #701526;
-  border-radius: 4px;
+  border-radius: 5px;
   box-sizing: border-box;
   color: white;
   cursor: pointer;
@@ -314,12 +315,12 @@ hr {
 
 .column-page2-l {
     flex: 50%;
-    margin: auto 0;
+    margin: 0 auto auto auto;
     width: 100%;
 }
 .column-page2-r {
     flex: 50%;
-    margin: auto 0;
+    margin: 0 auto auto auto;
     width: 100%;
 }
 
