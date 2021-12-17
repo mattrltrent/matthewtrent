@@ -11,6 +11,7 @@
     }
     .center, .center-xy {
         margin: auto 10% !important;
+        max-width: 1500px !important;
     }
     .desc {
         font-size: 15px !important;
@@ -156,11 +157,11 @@ hr {
 }
 
 .hero-img {
-    width: 40vw;
+    width: 80vh;
     margin: auto 0 auto auto;
     margin-left: auto;
     float: right;
-    height: auto;
+    max-height: auto;
 }
 
 .column-2 {
