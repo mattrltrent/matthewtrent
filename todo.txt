@@ -1,3 +1,7 @@
 add fit-content for all sections
 
 remove vw measurements
+
+add a display banner to announce something
+
+add a max width so it doesn't expand horizontally forever

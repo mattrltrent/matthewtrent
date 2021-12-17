@@ -31,7 +31,7 @@
         text-align: center !important;
         width: 150px !important;
         font-size: 15px !important;
-        margin-top: 25px !important;
+        margin-top: 26px !important;
         text-decoration: none !important;
     }
     .column-hero-l {
@@ -58,6 +58,9 @@
     }
     .page-header-ghost {
         top: 58px !important;
+    }
+    .banner {
+        padding: 10px 10vw !important;
     }
 }
 
@@ -86,17 +89,21 @@ hr {
     background-color: black;
 }
 
-li {
-    height: 20px;
-    width: 100px;
-    background-color: black;
-    display: inline;
+/* Display Banner */
+
+.banner {
+    background-color: #701526;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 8px;
+    text-align: center;
+    padding: 10px 70px;
 }
 
 /* Page 1 */
 
 .page-1 {
-    height: 100vh;
+    height: calc(100vh - 48px);
     width: 100%;
     background-color: whitesmoke;
     display: flex;
@@ -168,13 +175,13 @@ li {
   border: 1px solid #701526;
   border-radius: 4px;
   box-sizing: border-box;
-  color: whitesmoke;
+  color: white;
   cursor: pointer;
   display: inline-block;
   font-family: 'Poppins', sans-serif;
   font-size: 17px;
   font-weight: 600;
-  margin-top: 22px;
+  margin-top: 26px;
   outline: none;
   /* padding: 7px 15px; */
   padding: 0.65vw 1.25vw;
@@ -318,7 +325,7 @@ li {
 /* Footer */
 
 .page-footer {
-    height: 30vh;
+    height: 40vh;
     min-height: 250px;
     width: 100%;
     background-color: whitesmoke;
