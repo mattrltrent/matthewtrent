@@ -104,17 +104,21 @@ hr {
 /* Page 1 */
 
 .page-1 {
-    height: calc(100vh - 48px);
     width: 100%;
-    background-color: whitesmoke;
     display: flex;
     margin: auto;
-    min-height: fit-content;
+    height: fit-content;
+    background-color: whitesmoke;
 }
 
 .center {
     width: 100%;
     margin: auto 70px;
+    min-height: 100vh;
+}
+
+.column-hero-padding {
+    padding: 50px 0;
 }
 
 .column-hero-l {
@@ -124,14 +128,13 @@ hr {
 }
 
 .column-hero-r {
-    flex: 50%;
+    flex: 90%;
     margin: auto 0;
     width: 100%;
 }
 
 .row {
     display: flex;
-    padding: 5% 0;
 }
 
 .no-underline, .no-underline:hover, .no-underline:active, .no-underline:disabled, .no-underline:hover {
@@ -157,11 +160,10 @@ hr {
 }
 
 .hero-img {
-    width: 80vh;
-    margin: auto 0 auto auto;
+    max-width:100%;
+    max-height:auto;
     margin-left: auto;
     float: right;
-    max-height: auto;
 }
 
 .column-2 {
@@ -240,9 +242,7 @@ hr {
 
 .page-2 {
     width: 100%;
-    background-color: red;
-    display: inline;
-    margin: auto;
+    display: inline-block;
     min-height: fit-content;
 }
 
