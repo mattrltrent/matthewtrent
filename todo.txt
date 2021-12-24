@@ -10,7 +10,9 @@ make space between the describing paragraphs on mobile view
 
 PAGES: (make order logical + link to different sections)
 - skills
-- socials 
+x- socials 
 - proejcts
-- about / story
+x- about / story
 - past employement / work
+- instagram coding page
+- certificates/certificaitons

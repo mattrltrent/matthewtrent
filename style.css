@@ -58,6 +58,11 @@
         font-size: 20px !important;
         text-align: center !important;
     }
+    .text-display-shrink {
+        font-size: 20px !important;
+        text-align: center !important;
+        padding-bottom: 0 !important;
+    }
     .page-header-ghost {
         top: 58px !important;
     }
@@ -241,6 +246,12 @@ hr {
 
 /* Page 2 */
 
+.center-small {
+    width: 100%;
+    margin: auto 70px;
+    min-height: fit-content;
+}
+
 .page-2 {
     width: 100%;
     display: inline-block;
@@ -287,7 +298,18 @@ hr {
     font-weight: lighter;
     color: black;
     padding: 40px 20px;
-    padding: 40px 20px 85px 20px;
+    padding: 40px 20px 65px 20px;
+    line-height: 1.5;
+}
+
+.text-display-shrink {
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: justify;
+    font-weight: lighter;
+    color: black;
+    padding: 40px 20px;
+    padding: 40px 20px 65px 20px;
     line-height: 1.5;
 }
 
@@ -315,23 +337,26 @@ hr {
 
 .column-page2-l {
     flex: 50%;
-    margin: 0 auto auto auto;
     width: 100%;
+    margin-bottom: auto;
+    height: 100%;
 }
 .column-page2-r {
     flex: 50%;
-    margin: 0 auto auto auto;
     width: 100%;
+    margin-bottom: auto;
+    height: 100%;
 }
 
 /* Footer */
 
 .page-footer {
     height: 40vh;
-    min-height: 250px;
+    min-height: 300px;
     width: 100%;
     background-color: whitesmoke;
     display: flex;
+    padding: 10px 0;
 }
 
 .center-xy {
@@ -358,7 +383,18 @@ hr {
     font-size: 10px;
     color: black;
     text-decoration: none;
-    opacity: 0.2;
+    opacity: 0.5;
     display: block;
     padding-bottom: 18px;
+}
+
+.position-icons {
+    margin: auto;
+    padding: 5px 0 20px 0;
+    position: inline-block;
+}
+
+#footer-social-links {
+    margin: 0 8px;
+    display: inline-block;
 }
