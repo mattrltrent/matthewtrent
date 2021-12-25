@@ -151,6 +151,7 @@ hr {
     font-size: 45.3px;
     margin-bottom: 8px;
     padding: 15px 0;
+    margin-right: 10px;
 }
 
 .desc {
@@ -346,6 +347,51 @@ hr {
     width: 100%;
     margin-bottom: auto;
     height: 100%;
+}
+
+/* Page 3 */
+
+.page-3 {
+    width: 100%;
+    display: inline-block;
+    min-height: fit-content;
+    background-color: whitesmoke;
+}
+
+.page-header-small {
+    display: inline-block;
+    text-align: center;
+    font-size: 25px;
+    margin: auto;
+    width: 100%;
+}
+
+/* Page 4 */
+
+.page-4 {
+    width: 100%;
+    display: inline-block;
+    min-height: fit-content;
+    background-color: whitesmoke;
+    display: flex;
+}
+
+.square-l {
+    width: 50%;
+    height: 50vw;
+    flex: 50%;
+    background-color: #701526;
+    display: inline-flex;
+    margin: 20px 10px 20px 20px;
+}
+
+.square-r {
+    width: 50%;
+    height: 50vw;
+    flex: 50%;
+    background-color: #a8354a;
+    display: inline-flex;
+    margin: 20px 20px 20px 10px;
 }
 
 /* Footer */
