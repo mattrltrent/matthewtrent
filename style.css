@@ -358,40 +358,20 @@ hr {
     background-color: whitesmoke;
 }
 
-.page-header-small {
-    display: inline-block;
-    text-align: center;
-    font-size: 25px;
-    margin: auto;
-    width: 100%;
+.card {
+    height: 20vw;
+    background-color: white;
+    border-radius: 3px;
+    margin: 0 20px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
 }
 
 /* Page 4 */
 
 .page-4 {
+    background-color: white;
+    height: 100vh;
     width: 100%;
-    display: inline-block;
-    min-height: fit-content;
-    background-color: whitesmoke;
-    display: flex;
-}
-
-.square-l {
-    width: 50%;
-    height: 50vw;
-    flex: 50%;
-    background-color: #701526;
-    display: inline-flex;
-    margin: 20px 10px 20px 20px;
-}
-
-.square-r {
-    width: 50%;
-    height: 50vw;
-    flex: 50%;
-    background-color: #a8354a;
-    display: inline-flex;
-    margin: 20px 20px 20px 10px;
 }
 
 /* Footer */
