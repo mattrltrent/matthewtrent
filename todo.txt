@@ -16,3 +16,4 @@ x- about / story
 - past employement / work
 - instagram coding page
 - certificates/certificaitons
+- link to playstore or apple app store
