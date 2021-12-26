@@ -417,12 +417,27 @@ hr {
 
 .row-page3 {
     display: flex;
-    padding: 5% 0;
+    padding: 50px 0;
 }
 
 .row-display {
     display: flex;
     width: 100%;
+}
+
+.page-header-ghost-page3 {
+    font-size: 35px;
+    display: inline-block;
+    opacity: 0.08;
+    text-align: center;
+    position: relative;
+    width: 100%;
+    top: 45px;
+    font-size: 90px;
+}
+
+.outer-margin {
+    margin: 0 70px 0 70px;
 }
 
 /* Page 4 */
