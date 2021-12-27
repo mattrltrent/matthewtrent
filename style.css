@@ -440,6 +440,14 @@ hr {
     margin: 0 70px 0 70px;
 }
 
+.margin-top {
+    margin-top: 50px;
+}
+
+.margin-bottom {
+    margin-bottom: 70px;
+}
+
 /* LANGUAGE TAGS */
 
 /* insert language tags here like jae */
