@@ -15,5 +15,5 @@ x- socials
 x- about / story
 - past employement / work
 - instagram coding page
-- certificates/certificaitons
+- certificates/certifications
 - link to playstore or apple app store
