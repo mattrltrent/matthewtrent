@@ -10,6 +10,10 @@ make space between the describing paragraphs on mobile view
 
 x- CHANGE 70PX MARGIN TO 20PX (roughly) ON MOBILE VIEW
 
+- ADD A MINIMUM AND MAXIMUM SIZE (width)
+
+- skills/what I'm learning next
+
 PAGES: (make order logical + link to different sections)
 - skills
 x- socials 
