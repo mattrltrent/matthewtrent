@@ -8,14 +8,14 @@ add a max width so it doesn't expand horizontally forever
 
 make space between the describing paragraphs on mobile view
 
-***** CHANGE 70PX MARGIN TO 20PX (roughly) ON MOBILE VIEW
+x- CHANGE 70PX MARGIN TO 20PX (roughly) ON MOBILE VIEW
 
 PAGES: (make order logical + link to different sections)
 - skills
 x- socials 
 - proejcts
 x- about / story
-- past employement / work
+x- past employement / work
 - instagram coding page
 - certificates/certifications
 - link to playstore or apple app store
