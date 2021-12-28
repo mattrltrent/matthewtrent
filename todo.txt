@@ -14,6 +14,8 @@ x- CHANGE 70PX MARGIN TO 20PX (roughly) ON MOBILE VIEW
 
 - skills/what I'm learning next
 
+- scrollable horizontally (like TinDog's) list for projects (and similar cards??)
+
 PAGES: (make order logical + link to different sections)
 - skills
 x- socials 
