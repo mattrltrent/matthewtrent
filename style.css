@@ -14,21 +14,15 @@
     .center-small {
         margin: auto 20px !important;
     }
-    .outer-margin {
+    .outer-margin, .outer-margin-page4 {
         margin: 0 20px 0 20px !important;
     }
     .center-xy {
         margin: auto 20px !important;
     }
     
-
-
     .hero-img {
         display: none;
-    }
-
-    .center, .center-xy {
-        max-width: 1500px !important;
     }
 
     .desc {
@@ -46,8 +40,7 @@
     .title {
         font-size: 40px !important;
         text-align: center;
-        max-width: 100%;
-        margin: auto !important;
+        margin-bottom: 5px !important;
     }
 
     .btn-template {
@@ -101,12 +94,20 @@
 
     .row-display {
         display: block !important;
+        height: fit-content !important;
     }
 
-    .card-r, .card-l {
+    .card-r{
+        margin-bottom: 0 !important;   
+    }
+
+    .card-l {
         margin-bottom: 30px !important;   
     }
 
+    .page-4 {
+        padding-bottom: 50px !important;
+    }
 
 
 }
@@ -205,7 +206,6 @@ hr {
 
 .period {
     color: #701526;
-    font-size: 60px;
 }
 
 .hero-img {
@@ -352,7 +352,7 @@ hr {
     font-weight: lighter;
     color: black;
     padding: 40px 20px;
-    padding: 40px 20px 65px 20px;
+    padding: 40px 20px 60px 20px;
     line-height: 1.5;
 }
 
@@ -447,12 +447,14 @@ hr {
 
 .row-page3 {
     display: flex;
-    padding: 50px 0;
+    padding-top: 50px;
+    margin-bottom: -5px;
 }
 
 .row-display {
     display: flex;
     width: 100%;
+    height: fit-content;
 }
 
 .page-header-ghost-page3 {
@@ -469,12 +471,8 @@ hr {
     margin: 0 70px 0 70px;
 }
 
-.margin-top {
-    margin-top: 40px;
-}
-
 .margin-bottom {
-    margin-bottom: 60px;
+    margin-bottom: 70px;
 }
 
 .portion-bottom {
@@ -530,7 +528,11 @@ hr {
 .page-4 {
     background-color: white;
     height: fit-content;
-    padding: 50px 0;
+    /* padding: 50px 0; */
+}
+
+.outer-margin-page4 {
+    margin: 0 70px 44px 70px;
 }
 
 .center-text {
@@ -547,7 +549,12 @@ ul {
     display: flex;
 }
 
-li {
+ol {
+    list-style-position: inside; 
+    padding-left: 0;
+}
+
+.skill-li {
     height: 12px;
     width: 19.2%;
     list-style: none;
@@ -587,6 +594,10 @@ li {
     display: block;
 }
 
+.pad-top {
+    margin-top: 45px;
+}
+
 /* Footer */
 
 .page-footer {
@@ -594,7 +605,6 @@ li {
     width: 100%;
     background-color: whitesmoke;
     display: flex;
-    padding: 10px 0;
 }
 
 .center-xy {
@@ -614,7 +624,7 @@ li {
 }
 
 .footer-padding-up {
-    margin-top: 20px;
+    margin-top: 55px;
 }
 
 .footer-a {
@@ -622,8 +632,8 @@ li {
     color: black;
     text-decoration: none;
     opacity: 0.5;
-    display: block;
-    margin-bottom: 18px;
+    display: inline-block;
+    margin-bottom: 55px;
 }
 
 .position-icons {
