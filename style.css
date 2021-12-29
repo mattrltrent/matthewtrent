@@ -308,6 +308,7 @@ hr {
 
 .row-page2 {
     display: flex;
+    width: 100%;
     padding: 5% 0;
 }
 
@@ -528,7 +529,7 @@ hr {
 
 .page-4 {
     background-color: white;
-    height: 100vh;
+    height: fit-content;
 }
 
 .center-text {
@@ -541,16 +542,21 @@ hr {
 
 ul {
     padding-left: 0;
-    display: inline-flex;
-    flex-direction: row;
-    justify-content: space-between;
+    margin: 0 0 15px 0;
+    display: block;
 }
 
 li {
     height: 12px;
-    width: 100px;
-    margin: 5px;
+    width: 20%;
     list-style: none;
+    display: inline-block;
+}
+
+.row-item-2 {
+    flex-direction: row;
+    justify-content: space-around;
+    flex: 50%;
 }
 
 .inactive-li {
@@ -571,7 +577,7 @@ li {
     font-family: 'Montserrat', sans-serif;
     font-weight: bolder;
     color: black;
-    margin: 15px 0 5px 0;
+    /* margin: 15px 0 5px 0; */
     line-height: 1.5;
 }
 
