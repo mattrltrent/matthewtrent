@@ -513,6 +513,10 @@ hr {
     background-color: #7887e7;
 }
 
+.tag-firebase {
+    background-color: #d88668;
+}
+
 .tag-json {
     background-color: #e2bc7a;
 }
@@ -532,7 +536,7 @@ hr {
 }
 
 .outer-margin-page4 {
-    margin: 0 70px 44px 70px;
+    margin: 0 70px 46px 70px;
 }
 
 .center-text {
@@ -589,7 +593,7 @@ ol {
     font-family: 'Montserrat', sans-serif;
     font-weight: bolder;
     color: black;
-    margin-bottom: 5px;
+    margin-bottom: 3px;
     line-height: 1.5;
     display: block;
 }

@@ -17,9 +17,9 @@ x- CHANGE 70PX MARGIN TO 20PX (roughly) ON MOBILE VIEW
 - scrollable horizontally (like TinDog's) list for projects (and similar cards??)
 
 PAGES: (make order logical + link to different sections)
-- skills
+x- skills
 x- socials 
-- proejcts
+- projects
 x- about / story
 x- past employement / work
 - instagram coding page
