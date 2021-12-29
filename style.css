@@ -530,6 +530,7 @@ hr {
 .page-4 {
     background-color: white;
     height: fit-content;
+    padding: 50px 0;
 }
 
 .center-text {
@@ -548,8 +549,7 @@ ul {
 
 li {
     height: 12px;
-    width: 19.5%;
-    margin-right: 1%;
+    width: 19.2%;
     list-style: none;
     display: inline-block;
 }
@@ -569,6 +569,10 @@ li {
     background-color: #701526;
 }
 
+.li-margin-first-4 {
+    margin-right: 1%;
+}
+
 .pad-up {
     margin-bottom: 50px;
 }
@@ -578,7 +582,7 @@ li {
     font-family: 'Montserrat', sans-serif;
     font-weight: bolder;
     color: black;
-    /* margin: 15px 0 5px 0; */
+    margin-bottom: 5px;
     line-height: 1.5;
     display: block;
 }
