@@ -16,6 +16,8 @@ x- CHANGE 70PX MARGIN TO 20PX (roughly) ON MOBILE VIEW
 
 - scrollable horizontally (like TinDog's) list for projects (and similar cards??)
 
+- favicon not working (ky on safari tab viewer)
+
 PAGES: (make order logical + link to different sections)
 x- skills
 x- socials 

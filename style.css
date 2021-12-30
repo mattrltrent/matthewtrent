@@ -604,6 +604,48 @@ ol {
     margin-top: 45px;
 }
 
+/* Page 5 */
+
+.page-5 {
+    background-color: whitesmoke;
+    height: fit-content;
+}
+
+.circle {
+    background-color: #701526;
+    width: fit-content;
+    height: fit-content;
+    border-radius: 180px;
+    display: inline-block;
+    text-align: center;
+    box-shadow: 1px 1px 20px rgba(112, 21, 38, 0.35);
+}
+
+.icon-white {
+    height: 75px;
+    width: 75px;
+    color: white;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    transform: scale(1.5);
+}
+
+.perk-column {
+    text-align: center;
+}
+
+.perk-column-container {
+    flex: 33%;
+}
+
+/* Page 6 */
+
+.page-6 {
+    background-color: white;
+    height: 100vh;
+}
+
 /* Footer */
 
 .page-footer {
