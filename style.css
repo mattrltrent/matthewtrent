@@ -112,6 +112,13 @@
         text-align: center;
     }
 
+    .row-page5 {
+        display: block !important;
+    }
+
+    .top-margin-mobile {
+        margin-top: 53px !important;
+    }
 }
 
 /* Elements */
@@ -609,16 +616,18 @@ ol {
 .page-5 {
     background-color: whitesmoke;
     height: fit-content;
+    padding-bottom: 55px;
 }
 
 .circle {
     background-color: #701526;
+    box-shadow: 0 0 20px rgba(112, 21, 38, 0.35);
     width: fit-content;
     height: fit-content;
-    border-radius: 180px;
-    display: inline-block;
+    border-radius: 50%;
+    display: block;
     text-align: center;
-    box-shadow: 1px 1px 20px rgba(112, 21, 38, 0.35);
+    margin: 0 auto 20px auto;
 }
 
 .icon-white {
@@ -633,10 +642,25 @@ ol {
 
 .perk-column {
     text-align: center;
+    display: inline;
+    width: 100vw;
 }
 
-.perk-column-container {
-    flex: 33%;
+.feature-spacer {
+    width: 50px;
+}
+
+.room-below-header {
+    margin-top: 55px;
+}
+
+.row-page5 {
+    display: flex;
+}
+
+.feature-title {
+    font-size: 25px;
+    font-family: 'Poppins', sans-serif;
 }
 
 /* Page 6 */
