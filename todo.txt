@@ -18,6 +18,8 @@ x- CHANGE 70PX MARGIN TO 20PX (roughly) ON MOBILE VIEW
 
 - favicon not working (ky on safari tab viewer)
 
+- make it work for small size (if smaller than [min working width] then make all breaking values relative to screen width)
+
 PAGES: (make order logical + link to different sections)
 x- skills
 x- socials 
