@@ -648,10 +648,11 @@ ol {
 
 .feature-spacer {
     width: 50px;
+    width: 12%;
 }
 
-.room-below-header {
-    margin-top: 55px;
+.top-space {
+    padding-top: 55px;
 }
 
 .row-page5 {
