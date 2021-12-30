@@ -108,7 +108,9 @@
     .page-4 {
         padding-bottom: 50px !important;
     }
-
+    .center-text-mobile {
+        text-align: center;
+    }
 
 }
 
