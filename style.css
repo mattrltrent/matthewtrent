@@ -456,8 +456,12 @@ hr {
 
 .row-page3 {
     display: flex;
+    padding-top: 30px;
+}
+
+.row-page3-top {
+    display: flex;
     padding-top: 50px;
-    margin-bottom: -5px;
 }
 
 .row-display {
@@ -668,7 +672,7 @@ ol {
 
 .page-6 {
     background-color: white;
-    height: 100vh;
+    height: fit-content;
 }
 
 /* Footer */
