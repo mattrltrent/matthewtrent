@@ -108,9 +108,6 @@
     .page-4 {
         padding-bottom: 50px !important;
     }
-    .center-text-mobile {
-        text-align: center;
-    }
 
     .row-page5 {
         display: block !important;
@@ -500,38 +497,22 @@ hr {
     font-size: 15px;
     font-family: 'Montserrat', sans-serif;
     color: white;
-    padding: 5px;
+    padding: 6px;
     margin: 3px 3px 3px 3px;
-    border-radius: 3px;
+    border-radius: 3.5px;
     box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.15);
 }
 
 .tag-html {
-    background-color: #f89500;
+    background-color: #701526;
 }
 
-.tag-flutter {
-    background-color: #3185eb;
+.tag-css {
+    background-color: #701526;
 }
 
-.tag-dart {
-    background-color: #d86f71;
-}
-
-.tag-python {
-    background-color: #6dccc6;
-}
-
-.tag-restapi {
-    background-color: #7887e7;
-}
-
-.tag-firebase {
-    background-color: #d88668;
-}
-
-.tag-json {
-    background-color: #e2bc7a;
+.tag-item {
+    background-color: #701526;
 }
 
 .chain-icon {
@@ -546,6 +527,10 @@ hr {
     background-color: white;
     height: fit-content;
     /* padding: 50px 0; */
+}
+
+.center-text {
+    text-align: center;
 }
 
 .outer-margin-page4 {
@@ -690,36 +675,18 @@ ol {
     text-align: center;
 }
 
-.footer-msg {
-    margin: 20px auto;
-}
-
-.footer-img {
-    height: 60px;
-    width: auto;
-    margin: auto;
-}
-
-.footer-padding-up {
-    margin-top: 55px;
-}
-
 .footer-a {
     font-size: 10px;
     color: black;
     text-decoration: none;
-    opacity: 0.5;
+    opacity: 0.8;
     display: inline-block;
     margin-bottom: 55px;
+    margin-top: 15px;
+    font-family: 'Poppins', sans-serif;
 }
 
-.position-icons {
-    margin: auto;
-    padding: 5px 0 20px 0;
-    position: inline-block;
-}
-
-#footer-social-links {
-    margin: 0 8px;
-    display: inline-block;
+.footer-msg {
+    margin-top: 55px;
+    margin-bottom: 15px;
 }
