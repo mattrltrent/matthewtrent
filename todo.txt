@@ -20,6 +20,8 @@ x- CHANGE 70PX MARGIN TO 20PX (roughly) ON MOBILE VIEW
 
 - make it work for small size (if smaller than [min working width] then make all breaking values relative to screen width)
 
+- add KEY to skills & tech section
+
 PAGES: (make order logical + link to different sections)
 x- skills
 x- socials 
