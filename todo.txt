@@ -22,6 +22,8 @@ x- CHANGE 70PX MARGIN TO 20PX (roughly) ON MOBILE VIEW
 
 - add KEY to skills & tech section
 
+- turn Graph UI into package so I can add it as a technology + link
+
 PAGES: (make order logical + link to different sections)
 x- skills
 x- socials 
