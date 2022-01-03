@@ -10,6 +10,7 @@
     }
     .center {
         margin: auto 20px !important;
+        min-height: fit-content !important;
     }
     .center-small {
         margin: auto 20px !important;
@@ -426,6 +427,10 @@ hr {
     font-family: 'Poppins', sans-serif;
 }
 
+.chain-same-line {
+    margin-right: 35px;
+}
+
 .card-sub {
     font-size: 20px;
     font-family: 'Montserrat', sans-serif;
@@ -512,6 +517,11 @@ hr {
    transform: scale(0.8);
    color: black;
    opacity: 0.08;
+   display: inline-block;
+   position: absolute;
+   text-align: center;
+   margin-left: 8px;
+   width: 10px;
 }
 
 /* Page 4 */
@@ -660,6 +670,7 @@ ol {
     width: 100%;
     background-color: whitesmoke;
     display: flex;
+    padding-bottom: 55px;
 }
 
 .center-xy {
