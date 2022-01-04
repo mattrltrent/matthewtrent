@@ -702,3 +702,29 @@ ol {
     margin-top: 55px;
     margin-bottom: 15px;
 }
+
+/* Fixed Button */
+
+.fixed-button-pixel {
+    position: fixed;
+    bottom: 140px;
+    right: 20px; 
+}
+
+.fixed-button-rec {
+    position: fixed;
+    bottom: 100px;
+    right: 20px; 
+}
+
+.fixed-button-top {
+    position: fixed;
+    bottom: 60px;
+    right: 20px; 
+}
+
+.fixed-button-bottom {
+    position: fixed;
+    bottom: 20px;
+    right: 20px; 
+}

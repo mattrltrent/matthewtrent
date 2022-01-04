@@ -27,7 +27,7 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@700&family=Montserrat:wght@400;600&family=Poppins:wght@600&display=swap"
         rel="stylesheet">
-    <link rel="shortcut icon" type="assets/png" href="assets/favicon-curvy.png" />
+    <link rel="shortcut icon" type="image/x-icon" href="assets/favicon-curvy.png">
     <link rel="stylesheet" href="style.css">
     <script src="script.js"></script>
     <title>Matthew • Developer</title>
@@ -35,7 +35,7 @@
 
 <body>
     <!-- Display Banner -->
-    <div class="banner">
+    <div id="sec1" class="banner">
         <!-- <h1>Website in Development</h1> -->
         <h1>Welcome to my personal website, take a look around.</h1>
     </div>
@@ -59,7 +59,7 @@
         </div>
     </div>
     <!-- Page 2 (About me)-->
-    <div class="page-2">
+    <div id="sec2" class="page-2">
         <div class="flex">
             <div class="row-page2 center-small center-text">
                 <div class="column-page2-l height-max">
@@ -99,9 +99,13 @@
                 </div>
             </div>
         </div>
+        <button class="fixed-button-pixel" onclick="downPixels()">Pixel Scroll</button>
+        <button class="fixed-button-rec" onclick="recordPos()">POS</button>
+        <button class="fixed-button-top" onclick="up()">UP</button>
+        <button class="fixed-button-bottom" onclick="down()">DOWN</button>
     </div>
     <!-- Page 5 (perks) -->
-    <div class="page-5">
+    <div id="sec3" class="page-5">
         <div class="outer-margin-perks">
             <div class="row-page5 top-space">
                 <div class="perk-column">
@@ -128,15 +132,15 @@
                         <i class="fas fa-anchor icon-white"></i>
                     </div>
                     <h1 class="feature-title">Passion Driven</h1>
-                    <h1 class="card-desc">I love programming. So much so, that I've build an online coding <a
-                            target="_blank" href="https://instagram.com/comicalcoder">community</a> with 30,000 members.
+                    <h1 class="card-desc">I love programming. In fact, I've build an online coding <a
+                            target="_blank" href="https://instagram.com/comicalcoder">community</a> with over 25,000 members.
                     </h1>
                 </div>
             </div>
         </div>
     </div>
     <!-- Page 4 (skills) -->
-    <div class="page-4 margin-bottom outer-margin-page4">
+    <div id="sec4" class="page-4 margin-bottom outer-margin-page4">
         <div class="pad-up">
             <h2 class="page-header-ghost-page3 center-text">03</h2>
             <h1 class="page-header center-text">Skills & Tech</h1>
@@ -257,7 +261,7 @@
         </div>
     </div>
     <!-- Page 3 (professional employement) -->
-    <div class="page-3">
+    <div id="sec5" class="page-3">
         <div class="outer-margin margin-top center-text">
             <h2 class="page-header-ghost-page3">04</h2>
             <h1 class="page-header">Professional Experience</h1>
@@ -267,12 +271,12 @@
                 <div class="row-display margin-bottom">
                     <div class="card column-page2-l card-l">
                         <div>
-                            <h1 class="card-title">Stend</h1>
-                                <!-- <h1 class="card-title chain-same-line">Stend <a class="hover-link" target="_blank"
-                                    href="https://stend.com/"><i class="fas fa-link chain-icon"></i>
-                                </a></h1> -->
-                            <h1 class="card-sub">December 2021 - Current</h1>
-                            <h1 class="card-desc">As a programmer on the Stend team, I'm responsible for critical frontend development in the creation of the cross-platform application that curates demographic-based reviews
+                            <h1 class="card-title chain-same-line">Stend</h1>
+                            <!-- <h1 class="card-title chain-same-line">Stend (new startup) <a class="hover-link" target="_blank"
+                                href="mailto:me@matthewtrent.me"><i class="fas fa-envelope-open chain-icon"></i>
+                            </a></h1> -->
+                            <h1 class="card-sub">Current • <a target="_blank" href="mailto:me@matthewtrent.me">Email</a> for Info</h1>
+                            <h1 class="card-desc">As a programmer on the Stend (new startup) team, I'm responsible for critical frontend development in the creation of the cross-platform application that curates demographic-based reviews
                                 for businesses and users.</h1>
                         </div>
                         <div class="portion-bottom">
@@ -303,7 +307,7 @@
         </div>
     </div>
     <!-- Page 6 -->
-    <div class="page-6">
+    <div id="sec6" class="page-6">
         <div class="outer-margin margin-top center-text">
             <h2 class="page-header-ghost-page3">05</h2>
             <h1 class="page-header">Some of my Projects</h1>
@@ -374,6 +378,7 @@
                         <div class="portion-bottom">
                             <h1 class="tag tag-item">HTML</h1>
                             <h1 class="tag tag-item">CSS</h1>
+                            <h1 class="tag tag-item">Javascript</h1>
                             <h1 class="tag tag-item">Hosting</h1>
                         </div>
                     </div>
@@ -590,7 +595,7 @@
     </div>
     <!-- to add another section for projects, copy the divs from flex to flex and then make sure its one that does not include "margin-bottom" and it's "row-page3" -->
     <!-- Footer -->
-    <div class="page-footer">
+    <div id="sec7" class="page-footer">
         <div class="center-xy">
             <h2 class="footer-msg">Wanna Work Together?</h2>
             <a class="contact-link no-underline" href="mailto:me@matthewtrent.me"><button
