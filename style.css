@@ -15,7 +15,7 @@
     .center-small {
         margin: auto 20px !important;
     }
-    .outer-margin, .outer-margin-page4 {
+    .outer-margin, .outer-margin-page4, .outer-margin-perks {
         margin: 0 20px 0 20px !important;
     }
     .center-xy {
@@ -116,6 +116,9 @@
 
     .top-margin-mobile {
         margin-top: 53px !important;
+    }
+    .title-period {
+        padding-left: 20px !important;
     }
 }
 
@@ -479,6 +482,11 @@ hr {
     margin: 0 70px 0 70px;
 }
 
+.outer-margin-perks {
+    padding: 16px 0 16px 0;
+    margin: 0 70px 0 70px;
+}
+
 .margin-bottom {
     margin-bottom: 70px;
 }
@@ -516,7 +524,7 @@ hr {
 .chain-icon {
    transform: scale(0.8);
    color: black;
-   opacity: 0.08;
+   opacity: 0.12;
    display: inline-block;
    position: absolute;
    text-align: center;
@@ -670,7 +678,7 @@ ol {
     width: 100%;
     background-color: whitesmoke;
     display: flex;
-    padding-bottom: 55px;
+    padding-bottom: 57px;
 }
 
 .center-xy {

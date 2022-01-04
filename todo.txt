@@ -27,9 +27,9 @@ x- CHANGE 70PX MARGIN TO 20PX (roughly) ON MOBILE VIEW
 PAGES: (make order logical + link to different sections)
 x- skills
 x- socials 
-- projects
+x- projects
 x- about / story
 x- past employement / work
-- instagram coding page
+x- instagram coding page
 x- certificates/certifications
-- link to playstore or apple app store
+not doing- link to playstore or apple app store
