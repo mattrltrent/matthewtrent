@@ -125,6 +125,9 @@
     .title-period {
         padding-left: 20px !important;
     }
+    .btn-circle-template {
+        display: none;
+    }
 }
 
 /* Elements */
@@ -774,5 +777,5 @@ ol {
 
 .circle-anim:active {
     transition: all .25s;
-    transform: skewY(30deg) scale(1.15);
+    transform: skewY(16deg) scale(1.15);
 }
