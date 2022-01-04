@@ -250,7 +250,6 @@ hr {
     font-weight: 600;
     margin-top: 26px;
     outline: none;
-    /* padding: 7px 15px; */
     padding: 0.65vw 1.25vw;
     position: relative;
     text-align: center;
@@ -712,7 +711,7 @@ ol {
 
 .fixed-button-top {
     position: fixed;
-    bottom: 70px;
+    bottom: 75px;
     right: 20px;
 }
 
@@ -740,4 +739,40 @@ ol {
     display: inline-flex;
     flex-direction: column;
     justify-content: space-evenly;
+    transform: scale(1.1);
+    box-sizing: border-box;
+}
+
+.btn-circle-template {
+    user-select: none;
+    -webkit-user-select: none;
+    transition: box-shadow .2s, -ms-transform .1s, -webkit-transform .1s, transform .1s;
+    touch-action: manipulation;
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    position: absolute;
+    width: 0;
+    height: 0;
+    padding: 0;
+    margin: 0;
+}
+
+.btn-circle-template:focus-visible {
+    transition: box-shadow .2s;
+
+}
+
+.btn-circle-template:disabled {
+    cursor: not-allowed;
+    opacity: 1;
+}
+
+.circle-anim {
+    transition: box-shadow .2s, -ms-transform .1s, -webkit-transform .1s, transform .1s;
+}
+
+.circle-anim:active {
+    transition: all .25s;
+    transform: skewY(30deg) scale(1.15);
 }

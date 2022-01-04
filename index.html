@@ -34,6 +34,16 @@
 </head>
 
 <body>
+    <button class="btn-circle-template" onclick="toTop()">
+        <div class="circle-button fixed-button-top circle-anim">
+            <i class="fas fa-arrow-alt-to-top icon-white-button"></i>
+        </div>
+    </button>
+    <button class="btn-circle-template" onclick="down()">
+        <div class="circle-button fixed-button-bottom circle-anim">
+            <i class="fas fa-arrow-alt-down icon-white-button"></i>
+        </div>
+    </button>
     <!-- Display Banner -->
     <div id="sec1" class="banner">
         <!-- <h1>Website in Development</h1> -->
@@ -100,16 +110,6 @@
                 </div>
             </div>
         </div>
-        <button onclick="toTop()">
-            <div class="circle-button fixed-button-top">
-                <i class="fas fa-arrow-alt-to-top icon-white-button"></i>
-            </div>
-        </button>
-        <button onclick="down()">
-            <div class="circle-button fixed-button-bottom">
-                <i class="fas fa-chevron-down icon-white-button"></i>
-            </div>
-        </button>
     </div>
     <!-- Page 5 (perks) -->
     <div id="sec3" class="page-5">
@@ -280,11 +280,12 @@
                 <div class="row-display margin-bottom">
                     <div class="card column-page2-l card-l">
                         <div>
-                            <h1 class="card-title chain-same-line">Stend</h1>
-                            <!-- <h1 class="card-title chain-same-line">Stend (new startup) <a class="hover-link" target="_blank"
-                                href="mailto:me@matthewtrent.me"><i class="fas fa-envelope-open chain-icon"></i>
-                            </a></h1> -->
-                            <h1 class="card-sub">Current • <a target="_blank" href="mailto:me@matthewtrent.me">Email</a>
+                            <!-- <h1 class="card-title chain-same-line">Stend</h1> -->
+                            <h1 class="card-title chain-same-line">Stend (startup) <a class="hover-link"
+                                    target="_blank" href="mailto:me@matthewtrent.me"><i
+                                        class="fas fa-envelope-open chain-icon"></i>
+                                </a></h1>
+                            <h1 class="card-sub">Current • Email
                                 for Info</h1>
                             <h1 class="card-desc">As a programmer on the Stend (new startup) team, I'm responsible for
                                 critical frontend development in the creation of the cross-platform application that
