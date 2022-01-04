@@ -8,20 +8,24 @@
     .banner {
         padding: 10px 20px !important;
     }
+
     .center {
         margin: 80px 20px !important;
         min-height: fit-content !important;
     }
+
     .center-small {
         margin: auto 20px !important;
     }
+
     .outer-margin, .outer-margin-page4, .outer-margin-perks {
         margin: 0 20px 0 20px !important;
     }
+
     .center-xy {
         margin: auto 20px !important;
     }
-    
+
     .hero-img {
         display: none;
     }
@@ -98,12 +102,12 @@
         height: fit-content !important;
     }
 
-    .card-r{
-        margin-bottom: 0 !important;   
+    .card-r {
+        margin-bottom: 0 !important;
     }
 
     .card-l {
-        margin-bottom: 30px !important;   
+        margin-bottom: 30px !important;
     }
 
     .page-4 {
@@ -117,6 +121,7 @@
     .top-margin-mobile {
         margin-top: 53px !important;
     }
+
     .title-period {
         padding-left: 20px !important;
     }
@@ -522,14 +527,14 @@ hr {
 }
 
 .chain-icon {
-   transform: scale(0.8);
-   color: black;
-   opacity: 0.12;
-   display: inline-block;
-   position: absolute;
-   text-align: center;
-   margin-left: 8px;
-   width: 10px;
+    transform: scale(0.8);
+    color: black;
+    opacity: 0.12;
+    display: inline-block;
+    position: absolute;
+    text-align: center;
+    margin-left: 8px;
+    width: 10px;
 }
 
 /* Page 4 */
@@ -563,7 +568,7 @@ ul {
 }
 
 ol {
-    list-style-position: inside; 
+    list-style-position: inside;
     padding-left: 0;
 }
 
@@ -705,26 +710,34 @@ ol {
 
 /* Fixed Button */
 
-.fixed-button-pixel {
-    position: fixed;
-    bottom: 140px;
-    right: 20px; 
-}
-
-.fixed-button-rec {
-    position: fixed;
-    bottom: 100px;
-    right: 20px; 
-}
-
 .fixed-button-top {
     position: fixed;
-    bottom: 60px;
-    right: 20px; 
+    bottom: 70px;
+    right: 20px;
 }
 
 .fixed-button-bottom {
     position: fixed;
-    bottom: 20px;
-    right: 20px; 
+    bottom: 0px;
+    right: 20px;
+}
+
+.circle-button {
+    background-color: #701526;
+    box-shadow: 0 0 20px rgba(112, 21, 38, 0.35);
+    width: fit-content;
+    height: fit-content;
+    border-radius: 50%;
+    display: block;
+    text-align: center;
+    margin: 0 auto 20px auto;
+}
+
+.icon-white-button {
+    height: 55px;
+    width: 55px;
+    color: white;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: space-evenly;
 }

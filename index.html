@@ -71,7 +71,8 @@
                         something magical utilizing the combined power of these two areas of expertise.
                         <br><br>
                         Additionally, I’m a strong student. I’ve been awarded valuable scholarships for achieving a high
-                        90s average throughout highschool, alongside a 96 academic course average in grade twelve. Currently, at university, my lowest grade is an A+.
+                        90s average throughout highschool, alongside a 96 academic course average in grade twelve.
+                        Currently, at university, my lowest grade is an A+.
                         <br><br>
                         Finally, I’m an athlete. I thoroughly enjoy triathlons, running, and fitness in general. These
                         activities help keep me sane while I’m deep in the digital reality that is software development.
@@ -99,10 +100,16 @@
                 </div>
             </div>
         </div>
-        <button class="fixed-button-pixel" onclick="downPixels()">Pixel Scroll</button>
-        <button class="fixed-button-rec" onclick="recordPos()">POS</button>
-        <button class="fixed-button-top" onclick="up()">UP</button>
-        <button class="fixed-button-bottom" onclick="down()">DOWN</button>
+        <button onclick="toTop()">
+            <div class="circle-button fixed-button-top">
+                <i class="fas fa-arrow-alt-to-top icon-white-button"></i>
+            </div>
+        </button>
+        <button onclick="down()">
+            <div class="circle-button fixed-button-bottom">
+                <i class="fas fa-chevron-down icon-white-button"></i>
+            </div>
+        </button>
     </div>
     <!-- Page 5 (perks) -->
     <div id="sec3" class="page-5">
@@ -113,7 +120,9 @@
                         <i class="fas fa-school icon-white"></i>
                     </div>
                     <h1 class="feature-title">Self Learner</h1>
-                    <h1 class="card-desc">I enjoy completing coding bootcamps (<a target="_blank" href="https://www.udemy.com/course/the-complete-web-development-bootcamp/">example</a>) to further my knowledge in a subject area.</h1>
+                    <h1 class="card-desc">I enjoy completing coding bootcamps (<a target="_blank"
+                            href="https://www.udemy.com/course/the-complete-web-development-bootcamp/">example</a>) to
+                        further my knowledge in a subject area.</h1>
                 </div>
                 <div class="feature-spacer"></div>
                 <div class="perk-column">
@@ -132,8 +141,8 @@
                         <i class="fas fa-anchor icon-white"></i>
                     </div>
                     <h1 class="feature-title">Passion Driven</h1>
-                    <h1 class="card-desc">I love programming. In fact, I've build an online coding <a
-                            target="_blank" href="https://instagram.com/comicalcoder">community</a> with over 25,000 members.
+                    <h1 class="card-desc">I love programming. In fact, I've build an online coding <a target="_blank"
+                            href="https://instagram.com/comicalcoder">community</a> with over 25,000 members.
                     </h1>
                 </div>
             </div>
@@ -275,8 +284,11 @@
                             <!-- <h1 class="card-title chain-same-line">Stend (new startup) <a class="hover-link" target="_blank"
                                 href="mailto:me@matthewtrent.me"><i class="fas fa-envelope-open chain-icon"></i>
                             </a></h1> -->
-                            <h1 class="card-sub">Current • <a target="_blank" href="mailto:me@matthewtrent.me">Email</a> for Info</h1>
-                            <h1 class="card-desc">As a programmer on the Stend (new startup) team, I'm responsible for critical frontend development in the creation of the cross-platform application that curates demographic-based reviews
+                            <h1 class="card-sub">Current • <a target="_blank" href="mailto:me@matthewtrent.me">Email</a>
+                                for Info</h1>
+                            <h1 class="card-desc">As a programmer on the Stend (new startup) team, I'm responsible for
+                                critical frontend development in the creation of the cross-platform application that
+                                curates demographic-based reviews
                                 for businesses and users.</h1>
                         </div>
                         <div class="portion-bottom">
@@ -289,11 +301,12 @@
                     </div>
                     <div class="card column-page2-r card-r">
                         <div>
-                            <h1 class="card-title chain-same-line">Vanbelle Nursery <a class="hover-link" target="_blank"
-                                    href="https://vanbelle.com/"><i class="fas fa-link chain-icon"></i>
+                            <h1 class="card-title chain-same-line">Vanbelle Nursery <a class="hover-link"
+                                    target="_blank" href="https://vanbelle.com/"><i class="fas fa-link chain-icon"></i>
                                 </a></h1>
                             <h1 class="card-sub">Summer 2020</h1>
-                            <h1 class="card-desc">I developed a cross-platform application that demonstrates various use cases in
+                            <h1 class="card-desc">I developed a cross-platform application that demonstrates various use
+                                cases in
                                 which Flutter can be integrated into Plantago’s internal software.</h1>
                         </div>
                         <div class="portion-bottom">
@@ -317,13 +330,15 @@
                 <div class="row-display">
                     <div class="card column-page2-l card-l">
                         <div>
-                            <h1 class="card-title chain-same-line">Precise Integral Solver <a class="hover-link" target="_blank"
-                                    href="https://github.com/mattrltrent/integral"><i
+                            <h1 class="card-title chain-same-line">Precise Integral Solver <a class="hover-link"
+                                    target="_blank" href="https://github.com/mattrltrent/integral"><i
                                         class="fas fa-link chain-icon"></i>
                                 </a></h1>
                             <h1 class="card-sub">November 2021</h1>
-                            <h1 class="card-desc">I created code that breaks apart a mathematical function into 1,000,000+ Y values along a given
-                                slope, which are then used to very accurately calculate a definite integral. I also provide an interactive graph alongside the solution.</h1>
+                            <h1 class="card-desc">I created code that breaks apart a mathematical function into
+                                1,000,000+ Y values along a given
+                                slope, which are then used to very accurately calculate a definite integral. I also
+                                provide an interactive graph alongside the solution.</h1>
                         </div>
                         <div class="portion-bottom">
                             <h1 class="tag tag-item">Python</h1>
@@ -333,13 +348,15 @@
                     </div>
                     <div class="card column-page2-r card-r">
                         <div>
-                            <h1 class="card-title chain-same-line">Instagram Redesign <a class="hover-link" target="_blank"
-                                    href="https://github.com/mattrltrent/instagram_ui"><i
+                            <h1 class="card-title chain-same-line">Instagram Redesign <a class="hover-link"
+                                    target="_blank" href="https://github.com/mattrltrent/instagram_ui"><i
                                         class="fas fa-link chain-icon"></i>
                                 </a></h1>
                             <h1 class="card-sub">May 2020</h1>
-                            <h1 class="card-desc">I designed an extremly aesthetic remodel of Instagram's UI. The build includes home,
-                                search, explore, activity, and profile screens. Additionally, it features beautiful custom animations.</h1>
+                            <h1 class="card-desc">I designed an extremly aesthetic remodel of Instagram's UI. The build
+                                includes home,
+                                search, explore, activity, and profile screens. Additionally, it features beautiful
+                                custom animations.</h1>
                         </div>
                         <div class="portion-bottom">
                             <h1 class="tag tag-item">Flutter</h1>
@@ -369,11 +386,14 @@
                     </div>
                     <div class="card column-page2-r card-r">
                         <div>
-                            <h1 class="card-title chain-same-line">Personal Website <a class="hover-link" target="_blank"
-                                    href="https://github.com/mattrltrent/matthewtrent"><i class="fas fa-link chain-icon"></i>
+                            <h1 class="card-title chain-same-line">Personal Website <a class="hover-link"
+                                    target="_blank" href="https://github.com/mattrltrent/matthewtrent"><i
+                                        class="fas fa-link chain-icon"></i>
                                 </a></h1>
                             <h1 class="card-sub">December 2021</h1>
-                            <h1 class="card-desc">I designed and created the website you're viewing right now. Its purpose is to efficiently display who I am, and what I do. The website is mobile-first, and responsive.</h1>
+                            <h1 class="card-desc">I designed and created the website you're viewing right now. Its
+                                purpose is to efficiently display who I am, and what I do. The website is mobile-first,
+                                and responsive.</h1>
                         </div>
                         <div class="portion-bottom">
                             <h1 class="tag tag-item">HTML</h1>
@@ -394,7 +414,8 @@
                                     href="https://github.com/mattrltrent/graph"><i class="fas fa-link chain-icon"></i>
                                 </a></h1>
                             <h1 class="card-sub">June 2020</h1>
-                            <h1 class="card-desc">I designed a crisp graph and converted it into a custom widget. Created to be easily transferable between projects.</h1>
+                            <h1 class="card-desc">I designed a crisp graph and converted it into a custom widget.
+                                Created to be easily transferable between projects.</h1>
                         </div>
                         <div class="portion-bottom">
                             <h1 class="tag tag-item">Flutter</h1>
@@ -403,11 +424,14 @@
                     </div>
                     <div class="card column-page2-r card-r">
                         <div>
-                            <h1 class="card-title chain-same-line">CSC Class Website <a class="hover-link" target="_blank"
-                                    href="https://github.com/mattrltrent/csc105-assignment4"><i class="fas fa-link chain-icon"></i>
+                            <h1 class="card-title chain-same-line">CSC Class Website <a class="hover-link"
+                                    target="_blank" href="https://github.com/mattrltrent/csc105-assignment4"><i
+                                        class="fas fa-link chain-icon"></i>
                                 </a></h1>
                             <h1 class="card-sub">November 2021</h1>
-                            <h1 class="card-desc">I created a website that adheres to my computer science course assignment requirments. It includes a modern, colorful UI, alongside some fun, interactive Javascript.</h1>
+                            <h1 class="card-desc">I created a website that adheres to my computer science course
+                                assignment requirments. It includes a modern, colorful UI, alongside some fun,
+                                interactive Javascript.</h1>
                         </div>
                         <div class="portion-bottom">
                             <h1 class="tag tag-item">HTML</h1>
@@ -426,11 +450,15 @@
                 <div class="row-display">
                     <div class="card column-page2-l card-l">
                         <div>
-                            <h1 class="card-title chain-same-line">Border Gas Converter <a class="hover-link" target="_blank"
-                                    href="https://github.com/mattrltrent/gas"><i class="fas fa-link chain-icon"></i>
+                            <h1 class="card-title chain-same-line">Border Gas Converter <a class="hover-link"
+                                    target="_blank" href="https://github.com/mattrltrent/gas"><i
+                                        class="fas fa-link chain-icon"></i>
                                 </a></h1>
                             <h1 class="card-sub">March 2020</h1>
-                            <h1 class="card-desc">My father used to travel across the border into the USA to buy gas. He always told me, for efficiency's sake, he wished there was an app that easily converted cross-border gas prices. So, I built one. It converts $USD/Gallon to $CAD/Litre in real time.</h1>
+                            <h1 class="card-desc">My father used to travel across the border into the USA to buy gas. He
+                                always told me, for efficiency's sake, he wished there was an app that easily converted
+                                cross-border gas prices. So, I built one. It converts $USD/Gallon to $CAD/Litre in real
+                                time.</h1>
                         </div>
                         <div class="portion-bottom">
                             <h1 class="tag tag-item">Flutter</h1>
@@ -441,11 +469,14 @@
                     </div>
                     <div class="card column-page2-r card-r">
                         <div>
-                            <h1 class="card-title chain-same-line">Picture Text Interpreter<a class="hover-link" target="_blank"
-                                    href="https://github.com/mattrltrent/picture-reader"><i class="fas fa-link chain-icon"></i>
+                            <h1 class="card-title chain-same-line">Picture Text Interpreter<a class="hover-link"
+                                    target="_blank" href="https://github.com/mattrltrent/picture-reader"><i
+                                        class="fas fa-link chain-icon"></i>
                                 </a></h1>
                             <h1 class="card-sub">June 2020</h1>
-                            <h1 class="card-desc">I created an app that, upon the user uploading an image, deciphers the image's text and converts it into copyable text alongside giving the user the option of having it read out loud.</h1>
+                            <h1 class="card-desc">I created an app that, upon the user uploading an image, deciphers the
+                                image's text and converts it into copyable text alongside giving the user the option of
+                                having it read out loud.</h1>
                         </div>
                         <div class="portion-bottom">
                             <h1 class="tag tag-item">Flutter</h1>
@@ -463,10 +494,14 @@
                     <div class="card column-page2-l card-l">
                         <div>
                             <h1 class="card-title chain-same-line">Holiday UI <a class="hover-link" target="_blank"
-                                    href="https://github.com/mattrltrent/holiday-ui"><i class="fas fa-link chain-icon"></i>
+                                    href="https://github.com/mattrltrent/holiday-ui"><i
+                                        class="fas fa-link chain-icon"></i>
                                 </a></h1>
                             <h1 class="card-sub">August 2020</h1>
-                            <h1 class="card-desc">I developed a beautiful trip application. It displays enticing travel locations to the user. Upon clicking on a destination, the app blows up with a plethora of clean, crisp animations, bringing the user to the info section for that location.</h1>
+                            <h1 class="card-desc">I developed a beautiful trip application. It displays enticing travel
+                                locations to the user. Upon clicking on a destination, the app blows up with a plethora
+                                of clean, crisp animations, bringing the user to the info section for that location.
+                            </h1>
                         </div>
                         <div class="portion-bottom">
                             <h1 class="tag tag-item">Flutter</h1>
@@ -475,11 +510,14 @@
                     </div>
                     <div class="card column-page2-r card-r">
                         <div>
-                            <h1 class="card-title chain-same-line">Powerschool Redesign <a class="hover-link" target="_blank"
-                                    href="https://github.com/mattrltrent/powerschool"><i class="fas fa-link chain-icon"></i>
+                            <h1 class="card-title chain-same-line">Powerschool Redesign <a class="hover-link"
+                                    target="_blank" href="https://github.com/mattrltrent/powerschool"><i
+                                        class="fas fa-link chain-icon"></i>
                                 </a></h1>
                             <h1 class="card-sub">May 2020</h1>
-                            <h1 class="card-desc">My high school used an application, Powerschool, to distribute grades to students. I didn't like their UI so I redesigned it. In doing so, I made it more intuitive and fun to use.</h1>
+                            <h1 class="card-desc">My high school used an application, Powerschool, to distribute grades
+                                to students. I didn't like their UI so I redesigned it. In doing so, I made it more
+                                intuitive and fun to use.</h1>
                         </div>
                         <div class="portion-bottom">
                             <h1 class="tag tag-item">Flutter</h1>
@@ -494,11 +532,15 @@
                 <div class="row-display">
                     <div class="card column-page2-l card-l">
                         <div>
-                            <h1 class="card-title chain-same-line">COVID-19 Tracker <a class="hover-link" target="_blank"
-                                    href="https://github.com/mattrltrent/covid_tracker"><i class="fas fa-link chain-icon"></i>
+                            <h1 class="card-title chain-same-line">COVID-19 Tracker <a class="hover-link"
+                                    target="_blank" href="https://github.com/mattrltrent/covid_tracker"><i
+                                        class="fas fa-link chain-icon"></i>
                                 </a></h1>
                             <h1 class="card-sub">April 2020</h1>
-                            <h1 class="card-desc">I created an app that informs the user about basic virus/COVID-19 information. Additionally, it features an interactive graph that showsases COVID-19 deaths, recovered cases, and current cases across dozens of countries. Finally, it includes a feed of up-to-date news articles related to public health.</h1>
+                            <h1 class="card-desc">I created an app that informs the user about basic virus/COVID-19
+                                information. Additionally, it features an interactive graph that showsases COVID-19
+                                deaths, recovered cases, and current cases across dozens of countries. Finally, it
+                                includes a feed of up-to-date news articles related to public health.</h1>
                         </div>
                         <div class="portion-bottom">
                             <h1 class="tag tag-item">Flutter</h1>
@@ -509,10 +551,14 @@
                     <div class="card column-page2-r card-r">
                         <div>
                             <h1 class="card-title chain-same-line">Pattern Cracker <a class="hover-link" target="_blank"
-                                    href="https://github.com/mattrltrent/puzzle_game"><i class="fas fa-link chain-icon"></i>
+                                    href="https://github.com/mattrltrent/puzzle_game"><i
+                                        class="fas fa-link chain-icon"></i>
                                 </a></h1>
                             <h1 class="card-sub">July 2020</h1>
-                            <h1 class="card-desc">I developed a puzzle game that challenges the user with figuring out the number in a 4x4 matrix that doesn't fit the pattern. It includes a myriad of levels the user can progress through. The UI is formatted to look similar to that of the classic game of 2048.</h1>
+                            <h1 class="card-desc">I developed a puzzle game that challenges the user with figuring out
+                                the number in a 4x4 matrix that doesn't fit the pattern. It includes a myriad of levels
+                                the user can progress through. The UI is formatted to look similar to that of the
+                                classic game of 2048.</h1>
                         </div>
                         <div class="portion-bottom">
                             <h1 class="tag tag-item">Flutter</h1>
@@ -527,11 +573,13 @@
                 <div class="row-display">
                     <div class="card column-page2-l card-l">
                         <div>
-                            <h1 class="card-title chain-same-line">App Navigation Animation <a class="hover-link" target="_blank"
-                                    href="https://github.com/mattrltrent/screen_animation"><i class="fas fa-link chain-icon"></i>
+                            <h1 class="card-title chain-same-line">App Navigation Animation <a class="hover-link"
+                                    target="_blank" href="https://github.com/mattrltrent/screen_animation"><i
+                                        class="fas fa-link chain-icon"></i>
                                 </a></h1>
                             <h1 class="card-sub">January 2021</h1>
-                            <h1 class="card-desc">I created a simple app that features the groundwork for a complex and professional app-wide navigation system.</h1>
+                            <h1 class="card-desc">I created a simple app that features the groundwork for a complex and
+                                professional app-wide navigation system.</h1>
                         </div>
                         <div class="portion-bottom">
                             <h1 class="tag tag-item">Flutter</h1>
@@ -540,11 +588,15 @@
                     </div>
                     <div class="card column-page2-r card-r">
                         <div>
-                            <h1 class="card-title chain-same-line">Rising Revolution <a class="hover-link" target="_blank"
-                                    href="https://mattthebat.itch.io/risingrevolution"><i class="fas fa-link chain-icon"></i>
+                            <h1 class="card-title chain-same-line">Rising Revolution <a class="hover-link"
+                                    target="_blank" href="https://mattthebat.itch.io/risingrevolution"><i
+                                        class="fas fa-link chain-icon"></i>
                                 </a></h1>
                             <h1 class="card-sub">2019 • First Ever Project</h1>
-                            <h1 class="card-desc">I designed all art assets, alongside coded the entire project. Taking 176.5 hours, it taught me the very basics of C# Unity development. The strategic game features a 2D environment, where you play cards attempting to toppel the Russian Czar.</h1>
+                            <h1 class="card-desc">I designed all art assets, alongside coded the entire project. Taking
+                                176.5 hours, it taught me the very basics of C# Unity development. The strategic game
+                                features a 2D environment, where you play cards attempting to toppel the Russian Czar.
+                            </h1>
                         </div>
                         <div class="portion-bottom">
                             <h1 class="tag tag-item">Unity</h1>
@@ -565,7 +617,8 @@
                                         class="fas fa-link chain-icon"></i>
                                 </a></h1>
                             <h1 class="card-sub">October 2021</h1>
-                            <h1 class="card-desc">I designed a website for the sleek modernist. It features a bold, black,
+                            <h1 class="card-desc">I designed a website for the sleek modernist. It features a bold,
+                                black,
                                 professional design.</h1>
                         </div>
                         <div class="portion-bottom">
@@ -578,10 +631,12 @@
                     <div class="card column-page2-r card-r">
                         <div>
                             <h1 class="card-title chain-same-line">Seven Dungeons <a class="hover-link" target="_blank"
-                                    href="https://mattthebat.itch.io/sevendungeons"><i class="fas fa-link chain-icon"></i>
+                                    href="https://mattthebat.itch.io/sevendungeons"><i
+                                        class="fas fa-link chain-icon"></i>
                                 </a></h1>
                             <h1 class="card-sub">December 2019 • Second Ever Project</h1>
-                            <h1 class="card-desc">I created a dungeon runner game where the user tries to beat their best time jumping through seven dungeon puzzles without dying.</h1>
+                            <h1 class="card-desc">I created a dungeon runner game where the user tries to beat their
+                                best time jumping through seven dungeon puzzles without dying.</h1>
                         </div>
                         <div class="portion-bottom">
                             <h1 class="tag tag-item">Unity</h1>
@@ -598,8 +653,8 @@
     <div id="sec7" class="page-footer">
         <div class="center-xy">
             <h2 class="footer-msg">Wanna Work Together?</h2>
-            <a class="contact-link no-underline" href="mailto:me@matthewtrent.me"><button
-                class="btn-template">Contact Me</button></a>
+            <a class="contact-link no-underline" href="mailto:me@matthewtrent.me"><button class="btn-template">Contact
+                    Me</button></a>
         </div>
     </div>
 </body>
