@@ -4,6 +4,12 @@
     display: none;
 }
 
+@media (max-height: 300px) {
+    .btn-circle-template {
+        display: none;
+    }
+}
+
 @media (max-width: 922px) {
     .banner {
         padding: 10px 20px !important;
