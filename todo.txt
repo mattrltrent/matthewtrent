@@ -33,3 +33,12 @@ x- past employement / work
 x- instagram coding page
 x- certificates/certifications
 not doing- link to playstore or apple app store
+
+To review:
+- Make list of projects smaller
+- Pick best few FULL STACK (frontend + backend) projects and prominently display them (3-4 projects)
+- Include in projects the GITHUB source code link and Live hosting link (free hosting, github hosting, etc.)
+- Make text-heavy sections VERY SMALL (example: section 1 + 2)
+- Add a proper footer
+- Add a max width resizing limit (1500px?)
+- Possibly simplify skills section

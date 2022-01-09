@@ -66,7 +66,6 @@ function down() {
             top: document.getElementById("sec" + (scrollSection + 1)).offsetTop + 10,
             behavior: 'smooth'
         });
-        // scrollSection = scrollSection + 1;
     }
     recordPos();
 }
