@@ -42,3 +42,24 @@ To review:
 - Add a proper footer
 - Add a max width resizing limit (1500px?)
 - Possibly simplify skills section
+
+	• Add certificates section to personal website (mainly with bootcamps?)
+	• Downloadable resume
+	• Blogs
+	• Add more obvious github, stackoverflow, email, instagram, contact info
+	• Add any "rewards" or other "recognition" 
+	• List open source contributions
+	• Relevant social networks (creating Discord group, starting IG for coders, Facebook dev group)
+	• Link to guest writing (write something techy and send it to someone asking them to link to me/I can link to them).
+	• Create a wordpress theme, flutter package, theme for something, or anything someone can use.
+	• Link to Playstore apps, chrome apps, published unity games, etc.
+	• Create a font, icon set, patterns; say people can use, just link back to me.
+	• Create VS Code extension.
+	• Create simple guides (how to ___).
+    Add max-width.
+	- lots of animations 
+	- socials inks bottom left
+	- aesthetic contact me form
+	- Add COVID tracker project for web because the APIs are free and host on Heroku?
+
+	- Reivew: Darian Sampare, Coder Foundry

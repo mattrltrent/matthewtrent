@@ -1,0 +1,25 @@
+.downloads-title {
+    font-size: 45.3px;
+    padding: 15px 0;
+    margin: 20px auto 0 auto;
+    text-align: center;
+}
+
+.top-section {
+    width: 100%;
+    text-align: center;
+}
+
+.download-button {
+    text-align: center;
+    display: inline-block;
+}
+
+.downloads-desc {
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: lighter;
+    color: black;
+    line-height: 1.5;
+    text-align: center;
+}
