@@ -23,3 +23,7 @@
     line-height: 1.5;
     text-align: center;
 }
+
+.block {
+    display: block;
+}
