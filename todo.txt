@@ -63,3 +63,4 @@ To review:
 	- Add COVID tracker project for web because the APIs are free and host on Heroku?
 
 	- Reivew: Darian Sampare, Coder Foundry
+	- Add a "favorite" icon to projects that should be viewed first; also order them at the top
