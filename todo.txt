@@ -64,3 +64,14 @@ To review:
 
 	- Reivew: Darian Sampare, Coder Foundry
 	- Add a "favorite" icon to projects that should be viewed first; also order them at the top
+	- add figma as a skill
+
+
+	SHOW DESIGN PROGRESSION OF APP CYCLE:
+		1. sketched drawings
+		2. figma
+		3. basic app
+		4. app with animations and looking beautiful
+		5. Download/get app
+
+	- Change email for stend to my stend email address
