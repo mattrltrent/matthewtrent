@@ -75,3 +75,5 @@ To review:
 		5. Download/get app
 
 	- Change email for stend to my stend email address
+	- BLOG INCLUDES UI DAYS (OR A UI SERIES) WHERE I INCLUDE DOWNLOADABLE FIGMA FILES
+	- add follower count in real time via their api
