@@ -1,4 +1,5 @@
 <!-- Thanks Kylie for the Favicon, you're amazing!! -->
+<!-- I SHOULD REALLY MIGRATE THIS SITE OVER TO REACT OR NEXT ahhhhhh -->
 <!DOCTYPE html>
 <html lang="en">
 
@@ -44,16 +45,42 @@
             <i class="fas fa-arrow-alt-down icon-white-button"></i>
         </div>
     </button>
+
     <!-- Display Banner -->
     <div id="sec1" class="banner">
         <!-- <h1>Website in Development</h1> -->
-        <h1>Website in development - expect the unexpected.</h1>
+        <h1 id="last-updated"></h1>
     </div>
+    <!-- Calculates current date -->
+    <script>
+        function timeAgo(input) {
+            const date = (input instanceof Date) ? input : new Date(input);
+            const formatter = new Intl.RelativeTimeFormat('en');
+            const ranges = {
+                years: 3600 * 24 * 365,
+                months: 3600 * 24 * 30,
+                weeks: 3600 * 24 * 7,
+                days: 3600 * 24,
+                hours: 3600,
+                minutes: 60,
+                seconds: 1
+            };
+            const secondsElapsed = (date.getTime() - Date.now()) / 1000;
+            for (let key in ranges) {
+                if (ranges[key] < Math.abs(secondsElapsed)) {
+                    const delta = secondsElapsed / ranges[key];
+                    return formatter.format(Math.round(delta), key);
+                }
+            }
+        }
+        // To quickly change the last updated date, in the timeAgo() function, place the output of this code: var date = new Date(); console.log(date.toISOString());
+        document.getElementById("last-updated").innerHTML = "Website last updated " + timeAgo('2022-07-01T00:53:31.845Z') + ".";
+    </script>
     <!-- Page 1 (Hero Screen)-->
     <div class="page-1">
         <div class="row center">
             <div class="column-hero-l column-hero-padding">
-                <h1 class="desc">Currently coding a startup.</h1>
+                <h1 class="desc">Currently coding two startups (yes, I'm crazy).</h1>
                 <!-- <h1 class="desc">Currently coding a <a target="_blank" href="https://stend.com/">startup</a>.</h1> -->
                 <h1 class="title title-period">I'm Matt, a Programmer<span class="period">. </span></h1>
                 <h1 class="desc">I specialize in cross-platform mobile app development, but am well-versed in a variety
@@ -273,15 +300,39 @@
         </div>
         <div class="flex">
             <div class="row-page3-top center-small">
-                <div class="row-display margin-bottom">
+                <div class="row-display">
                     <div class="card column-page2-l card-l">
                         <div>
+                            <h1 class="card-title chain-same-line">[Private] (New Startup)<a class="hover-link"
+                                    target="_blank" href="mailto:me@matthewtrent.me"><i
+                                        class="fas fa-envelope-open chain-icon"></i>
+                                </a></h1>
+                            <h1 class="card-sub">March 2022 - Current • Email
+                                for Info</h1>
+                            <h1 class="card-desc">[Private] is a fullstack application that's like a blend of Reddit and
+                                Twitter - perhaps with a dash of Tinder on top. It's targeted towards a very specific
+                                audience/niche. I'm currently the solo developer building the application. If you have
+                                expertise in this stack, let's talk.</h1>
+                        </div>
+                        <div class="portion-bottom">
+                            <h1 class="tag tag-item">Flutter</h1>
+                            <h1 class="tag tag-item">Dart</h1>
+                            <h1 class="tag tag-item">NodeJS</h1>
+                            <h1 class="tag tag-item">ExpressJS</h1>
+                            <h1 class="tag tag-item">Figma</h1>
+                            <h1 class="tag tag-item">MongoDB</h1>
+                            <h1 class="tag tag-item">Stack Subject to Change</h1>
+                        </div>
+                    </div>
+
+                    <div class="card column-page2-r card-r">
+                        <div>
                             <!-- <h1 class="card-title chain-same-line">Stend</h1> -->
-                            <h1 class="card-title chain-same-line">Stend (new startup) <a class="hover-link"
+                            <h1 class="card-title chain-same-line">Stend (New Startup) <a class="hover-link"
                                     target="_blank" href="mailto:matthew@stend.tech"><i
                                         class="fas fa-envelope-open chain-icon"></i>
                                 </a></h1>
-                            <h1 class="card-sub">Current • Email
+                            <h1 class="card-sub">December 2021 - Current • Email
                                 for Info</h1>
                             <h1 class="card-desc">As the frontend lead on the Stend team, I'm responsible for
                                 critical frontend development and management in the creation of our team's
@@ -296,8 +347,15 @@
                             <h1 class="tag tag-item">C++</h1>
                             <h1 class="tag tag-item">Stack Subject to Change</h1>
                         </div>
+
                     </div>
-                    <div class="card column-page2-r card-r">
+                </div>
+            </div>
+        </div>
+        <div class="flex">
+            <div class="row-page3 center-small">
+                <div class="row-display margin-bottom">
+                    <div class="card column-page2-r card-single">
                         <div>
                             <h1 class="card-title chain-same-line">Vanbelle Nursery <a class="hover-link"
                                     target="_blank" href="mailto:me@matthewtrent.me"><i
@@ -312,7 +370,6 @@
                         <div class="portion-bottom">
                             <h1 class="tag tag-item">Flutter</h1>
                             <h1 class="tag tag-item">Dart</h1>
-                            <h1 class="tag tag-item">JSON</h1>
                         </div>
                     </div>
                 </div>
